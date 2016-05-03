@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Контакти 2</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="buttonLoadContacts">Зареди Контакти</string>
+    <string name="buttonLoadCallLog">Зареди Хронолог. Обажд.</string>
+    <string name="ShowDB">Датабаза</string>
+
+    <string name="DbUpdateStatus">Статус Датабаза</string>
+    <string name="LOAD_SMS_LOGS">Зареди Хронолог. СМСи</string>
+
+    <string name="SaveStats">Запази статистика в ДБ</string>
+    <string name="NameOfParticularID">Име на контакта: </string>
+    <string name="title_activity_show_details">Покажи Детайли</string>
+
+    <string name="hello_world">Здравей, Свят!</string>
+    <string name="title_activity_main_activity2">Статистика Датабаза</string>
+    <string name="title_activity_mail_sender">Изпрати писмо</string>
+    <string name="appwidget_text">Пример</string>
+    <string name="add_widget">Добави джаджа</string>
+    <string name="title_activity_service">Обслужване</string>
+
+
+    <string name="OpenGPSservice">Отвори GPS</string>
+    <string name="Version2">Версия2</string>
+
+
+
+    <string name="Subject">Тема</string>
+    <string name="EmailAddress">Е-мейл</string>
+    <string name="TypeMessageHere">Съобщение</string>
+    <string name="Send">Изпрати</string>
+
+
+    <string name="StartService">Пусни обслужване</string>
+    <string name="StopService">Спри обслужване</string>
+    <string name="GETMYPOSITION">Намери моето местоположение</string>
+
+
+    <string name="OpenApp">Отвори апликация</string>
+    <string name="LOADSTATS">Зареди статистика</string>
+
+
+</resources>

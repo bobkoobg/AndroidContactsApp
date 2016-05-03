@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="sk.stavona.contacts2.MailSenderActivity"
+            android:background="#ff2aa706">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+        <EditText android:id="@+id/editTextTo"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_margin="5dp"
+                  android:hint="@string/EmailAddress"
+                  android:inputType="textEmailAddress"
+                  android:singleLine="true"
+                  android:background="#ff62d432"/>
+        <EditText android:id="@+id/editTextSubject"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/editTextTo"
+                  android:layout_margin="5dp"
+                  android:hint="@string/Subject"
+                  android:singleLine="true"
+                  android:background="#ff62d432"/>
+        <EditText android:id="@+id/editTextMessage"
+                  android:layout_width="match_parent"
+                  android:layout_height="200dp"
+                  android:layout_below="@+id/editTextSubject"
+                  android:layout_margin="5dp"
+                  android:gravity="top|left"
+                  android:hint="@string/TypeMessageHere"
+                  android:inputType="textMultiLine"
+                  android:background="#ff62d432"/>
+        <Button android:id="@+id/buttonSend"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/Send"
+                android:layout_below="@+id/editTextMessage"
+                android:layout_alignRight="@+id/editTextMessage"
+                android:layout_alignEnd="@+id/editTextMessage"
+                android:background="#ffacff37"
+                android:backgroundTint="#ffacffb2"
+                android:backgroundTintMode="multiply"/>
+
+    </RelativeLayout>
+
+</ScrollView>

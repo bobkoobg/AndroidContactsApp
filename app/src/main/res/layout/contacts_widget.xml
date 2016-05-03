@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/textViewRandomOne"
+        android:isScrollContainer="true"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        android:contentDescription="@string/appwidget_text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonWidgetLoadStatistics"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OpenApp"
+        android:id="@+id/buttonOpenApp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonWidgetLoadStatistics"
+        android:layout_alignStart="@+id/buttonWidgetLoadStatistics"
+        android:layout_alignRight="@+id/buttonWidgetLoadStatistics"
+        android:layout_alignEnd="@+id/buttonWidgetLoadStatistics"
+        android:background="#ffacff37"
+        android:backgroundTintMode="multiply"
+        android:backgroundTint="#ffacffb2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LOADSTATS"
+        android:id="@+id/buttonWidgetLoadStatistics"
+        android:layout_below="@+id/buttonOpenApp"
+        android:layout_alignLeft="@+id/textViewRandomOne"
+        android:layout_alignStart="@+id/textViewRandomOne"
+        android:layout_alignRight="@+id/textViewRandomOne"
+        android:layout_alignEnd="@+id/textViewRandomOne"
+        android:background="#ffacff37"
+        android:backgroundTint="#ffacffb2"/>
+
+</RelativeLayout>

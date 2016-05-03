@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="sk.stavona.contacts2.ShowDetails">
+    <item android:id="@+id/action_Load_SMS_Log"
+          android:title="Load SMS Log"
+          android:orderInCategory="2"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_Load_Call_log"
+          android:title="Load Call Log"
+          android:orderInCategory="1"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actions_Export_to_DB"
+          android:title="Export to DB"
+          android:orderInCategory="3"
+          app:showAsAction="never"/>
+    <item android:id="@+id/actions_Load_DB"
+          android:title="Show DB"
+          android:orderInCategory="4"
+          app:showAsAction="never"/>
+</menu>

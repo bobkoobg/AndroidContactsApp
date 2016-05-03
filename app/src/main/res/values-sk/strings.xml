@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Kontakty2</string>
+
+    <string name="action_settings">Nastavenia</string>
+    <string name="buttonLoadContacts">Nacitaj kontakty</string>
+    <string name="buttonLoadCallLog">Nacitaj historiu volani</string>
+    <string name="ShowDB">Databaza</string>
+
+    <string name="DbUpdateStatus">Status databazy</string>
+    <string name="LOAD_SMS_LOGS">Nacitaj historiu SMS</string>
+
+    <string name="SaveStats">Uloz status do databazy</string>
+    <string name="NameOfParticularID">Meno kontaktu: </string>
+    <string name="title_activity_show_details">Ukaz detaily</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_activity2">Statistika databazy</string>
+    <string name="title_activity_mail_sender">Email</string>
+    <string name="appwidget_text">Priklad</string>
+    <string name="add_widget">Pridaj widget</string>
+    <string name="title_activity_service">Activita sluzby</string>
+
+
+    <string name="OpenGPSservice">Otvor GPS sluzbu</string>
+    <string name="Version2">Verzia 2</string>
+
+
+
+    <string name="Subject">Predmet</string>
+    <string name="EmailAddress">Emailova adresa!</string>
+    <string name="TypeMessageHere">Napis tu spravu !</string>
+    <string name="Send">Poslat</string>
+
+
+    <string name="StartService">Zapni sluzbu</string>
+    <string name="StopService">Zastav sluzbu</string>
+    <string name="GETMYPOSITION">LOKALIZUJ MA</string>
+
+
+    <string name="OpenApp">Otvor aplikaciu</string>
+    <string name="LOADSTATS">nacitaj statistiky</string>
+
+</resources>

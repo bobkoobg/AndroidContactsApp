@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="sk.stavona.contacts2.StatsDB">
+    <item android:id="@+id/action_Load_DB"
+          android:title="Load Database"
+          android:orderInCategory="1"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_Export_to_TXT"
+          android:title="Export to .txt"
+          android:orderInCategory="2"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action_SEND_to_MAIL"
+          android:title="Send to E-Mail"
+          android:orderInCategory="3"
+          app:showAsAction="never"/>
+</menu>

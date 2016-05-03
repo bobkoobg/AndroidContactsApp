@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:orientation = "vertical"
+                tools:context="sk.stavona.contacts2.ServiceActivity"
+                android:background="#ff2aa706">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StartService"
+        android:id="@+id/buttonStartGPS"
+        android:layout_above="@+id/buttonGetPosition"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffacff37"
+        android:backgroundTint="#ffacffb2"
+        android:backgroundTintMode="multiply"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StopService"
+        android:id="@+id/buttonStopGPS"
+        android:layout_alignTop="@+id/buttonStartGPS"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffacff37"
+        android:backgroundTint="#ffacffb2"
+        android:backgroundTintMode="multiply"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textViewPosition"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/buttonStartGPS"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ff62d432"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GETMYPOSITION"
+        android:id="@+id/buttonGetPosition"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffacff37"
+        android:backgroundTint="#ffacffb2"/>
+</RelativeLayout>
